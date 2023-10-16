@@ -1,3 +1,58 @@
-body{
-  background-color: rgb(96, 234, 188)
+body {
+  background-color: rgb(96, 234, 188);
+  margin: 0;
+}
+
+.color-entry5 {
+  background-color: rgb(255, 255, 255);
+}
+
+.wrapper {
+height: 100vh;
+overflow-y: auto;
+/* overflow-y: hidden; */
+perspective: 10px;
+}
+
+header {
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+transform-style: preserve-3d;
+z-index: -1 ;
+}
+
+.background {
+transform: translateZ(-10px) scale(2);
+
+}
+
+.foreground {
+  transform: translateZ(-5px) scale(1.5);
+}
+
+
+.background,
+.foreground {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+
+}
+
+.title {
+  font-size: 7rem;
+  text-shadow: 0 0 5px black;;
+  color: #fff;
+}
+
+section {
+  font-size: 2rem;
+  padding: 2rem;
+  background-color: #333;
+  color: white;
 }
