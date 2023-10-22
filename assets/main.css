@@ -7,6 +7,11 @@ body {
   background-color: rgb(113, 10, 31);
 }
 
+/* .color-index.html {
+  background-color: rgb(255, 255, 255);
+} */
+
+
 
 .wrapper {
 height: 100vh;
@@ -56,4 +61,57 @@ section {
   padding: 2rem;
   background-color: #333;
   color: white;
+}
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container
+{
+  width: 1400px;
+  margin: 20px auto;
+  columns: 4;
+  column-gap: 20px;
+}
+
+.container .box
+{
+  width: 100%;
+  margin-bottom: 10px;
+  break-inside: avoid;
+}
+
+.container .box img
+{
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+@media (max-width: 1200px)
+{
+  .container
+  {
+    width: calc(100%-40px);
+    columns: 3;
+  }
+}
+
+@media (max-width: 768px)
+{
+  .container
+  {
+    colums: 2;
+  }
+}
+
+@media (max-width: 480px)
+{
+  .container
+  {
+    colums: 1;
+  }
 }
