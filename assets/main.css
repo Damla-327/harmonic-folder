@@ -63,6 +63,8 @@ section {
   color: white;
 }
 
+
+
 *
 {
   margin: 0;
@@ -114,4 +116,61 @@ section {
   {
     colums: 1;
   }
+}
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+.video-foreground,
+.video-background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+@media screen and (max-aspect-ratio: 16/9) {
+  .video-foreground {
+    width: 300%;
+    left: -100%;
+  }
+}
+
+@media screen and (min-aspect-ratio: 16/9) {
+  .video-foreground {
+    width: 300%;
+    left: -100%;
+  }
+}
+
+.knockout-circle {
+  position: absolute;
+  top: 0%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-size: calc(30px + 33vh + 2.5vh);
+  margin: auto;
+  user-select: none;
+}
+
+.dark.theme .knockout-circle {
+  background-color: #000;
+  color: #fff;
+  mix-blend-mode: multiply;
 }
