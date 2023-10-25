@@ -85,7 +85,14 @@ section {
   width: 100%;
   margin-bottom: 10px;
   break-inside: avoid;
+  transition: transform 0.3s ease-in-out;
 }
+
+.container .box:hover{
+  transform: scale(1.3);
+  
+}
+
 
 .container .box img
 {
@@ -122,8 +129,25 @@ section {
 
 
 
-* {
+/* * {
   box-sizing: border-box;
+} */
+
+.soap-font {
+  font-family: "soap", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 92px;
+}
+
+.font-motion {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 body {
@@ -131,46 +155,17 @@ body {
   overflow: hidden;
 }
 
-.video-foreground,
-.video-background iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
+.circle-lav {
+  clip-path: circle(50% at 50% 50%);
 }
 
-@media screen and (max-aspect-ratio: 16/9) {
-  .video-foreground {
-    width: 300%;
-    left: -100%;
-  }
-}
-
-@media screen and (min-aspect-ratio: 16/9) {
-  .video-foreground {
-    width: 300%;
-    left: -100%;
-  }
-}
-
-.knockout-circle {
-  position: absolute;
-  top: 0%;
-
+/* .video-background {
+  width: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 100%;
-  font-size: calc(30px + 33vh + 2.5vh);
-  margin: auto;
-  user-select: none;
-}
+} */
 
-.dark.theme .knockout-circle {
-  background-color: #000;
-  color: #fff;
-  mix-blend-mode: multiply;
-}
+/* vidyo backgroundi yuvarlagi centerda olmasini istersen tekrar ekle */
+
