@@ -159,13 +159,77 @@ body {
   clip-path: circle(50% at 50% 50%);
 }
 
-/* .video-background {
+.video-background {
   width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-} */
+}
 
 /* vidyo backgroundi yuvarlagi centerda olmasini istersen tekrar ekle */
 
+
+/* 2. parallex scroll entry-8 */
+
+/* body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background: #222;
+  perspective: 1px;
+  transform-style: reserve preserve-3d;
+}
+
+.section1, .section2 {
+  width: 100vw;
+  min-height: 100vh;
+  position: relative;
+  transform-style: reserve preserve-3d;
+}
+
+.section2 {
+  background: rgb(68, 35, 19);
+}
+
+.text {
+  top: 30%;
+  left: 50%;
+  position: absolute;
+  font-family: 'Franklin Gothic Heavy';
+  font-size: 15vw;
+  color: rgb(89, 65, 65);
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.3), 5px 5px 70px rgba(255,255,255,0.5);
+  transform: scale(1,1.1) translate(-50%, 10%);
+} */
+
+
+/* hover js */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+ }
+ 
+ .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f1f1f1;
+ }
+ 
+ .button {
+  background-color: #0077ff;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+ }
+ 
+ .button:hover {
+  background-color: #0051cc;
+ }
