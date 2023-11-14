@@ -204,32 +204,204 @@ body {
 } */
 
 
-/* hover js */
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+  font-family: 'Primary';
+  src:url('./fonts/mori-regular.woff2')  format('woff2'), url('./fonts/mori-regular.woff')  format('woff');
+  font-weight: 100,
+  font-style: normal;
+  
+font-display: swap;
+}
+
+:root {
+  --primary: 1d1d1d;
+  --secondary: fof2d8;
+}
+
+
+
+html {
+  font-size: max(100vw / 1920 * 10);
+}
+
 
 body {
+background-color: var(--primary);
+color: var(--secondary);
+}
+
+.hero {
+position: relative;
+width: 100vw;
+height: 100vh;
+}
+
+.hero_wrapper {
+width: inherit;
+height: inherit;
+}
+
+
+.hero_media{
+position: fixed !important;
+z-index: -1;
+pointer-events: none;
+
+}
+
+.hero_figure {
+position: relative;
+width: 100vw;
+height: 100vh;
+}
+
+
+.hero_image {
+position: absolute;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+
+.hero_row {
+font-size: 25vh
+height: 25vh;
+}
+
+
+.hero_row_text {
+  display: flex;
+  justify-content:space-between;
+  width: 100%;
+  height: inherit;
+  padding: 2rem;
+  overflow: hidden;
+}
+
+
+.hero_row_text h1 {
+font-size: inherit;
+line-height: 1;
+}
+
+.hero_row_text h4 {
+font-size: 3rem;
+line-height: 1;
+}
+
+.hero_row_separator {
+
+  border: 1px solid var(--secondary)
+}
+
+
+
+
+
+/* tekrar pinterest board */
+
+
+*
+{
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
- }
- 
- .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #f1f1f1;
- }
- 
- .button {
-  background-color: #0077ff;
-  color: white;
-  padding: 10px 20px;
-  font-size: 18px;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
- }
- 
- .button:hover {
-  background-color: #0051cc;
- }
+  box-sizing: border-box;
+}
+
+.container
+{
+  width: 1400px;
+  margin: 20px auto;
+  columns: 4;
+  column-gap: 20px;
+}
+
+.container .box
+{
+  width: 100%;
+  margin-bottom: 10px;
+  break-inside: avoid;
+  transition: transform 0.3s ease-in-out;
+}
+
+.container .box:hover{
+  transform: scale(1.3);
+  
+}
+
+
+.container .box img
+{
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+@media (max-width: 1200px)
+{
+  .container
+  {
+    width: calc(100%-40px);
+    columns: 3;
+  }
+}
+
+@media (max-width: 768px)
+{
+  .container
+  {
+    colums: 2;
+  }
+}
+
+@media (max-width: 480px)
+{
+  .container
+  {
+    colums: 1;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* entru-9 */
+
+:root {
+
+--color-bg: #7f0101;
+--color-text: #fc3333
+}
+
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background:var(--color-bg) ;
+  font-family: PP "Supply Sans";
+}
