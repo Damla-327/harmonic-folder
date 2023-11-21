@@ -60,11 +60,6 @@ const showHero = () => {
 
 
 
-
-
-
-   
-
 const splitAnimation= ()=> {
     splitting({
         target: heroMedia,

@@ -13,9 +13,9 @@
   .container {
     width: 100%;
     height: 100%;
-    font-family: "Neue Montrea"; /* Corrected font family name */
+    font-family: "Neue Montrea"; 
     text-transform: uppercase;
-    background: #e3e3e3; /* Added a semicolon */
+    background: #e3e3e3; 
   }
   
   nav, footer {
@@ -51,7 +51,7 @@
   .placeholder {
     text-align: center;
     font-family: "Torwelten";
-    font-size: 80px;
+    font-size: 50px;
     color: #9c74a1;
     /* outline-color: rgb(227, 218, 218); */
     line-height: 2.25;
