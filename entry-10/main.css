@@ -62,19 +62,19 @@ body {
   width: 260px;
   height: 260px;
   border-radius: 100%;
-  background: #fff;
+  background: #e3e3e3;
   transition: 0.3s;
 }
 
 .card-container:hover {
-  background: #000;
-  color: #fff;
+  background: #708c56;
+  color: #708c56;
   transition: all 0.2s ease-out;
 }
 
 .card-container:hover .preview-text,
 .card-container:hover .plus-icon {
-  color: #fff;
+  color: #c397cf;
 }
 
 .card-container:hover .card-icon {
