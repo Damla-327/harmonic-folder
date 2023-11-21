@@ -99,7 +99,7 @@ function updatePlaceholderText(event) {
 
 function resetPlaceholderText() {
   const defaultText = 'Skeleton FLY';
-  const defaultSubHeaderText = 'ONE SUBSCRIPTION. ENDLESS WEB DESIGNS.';
+  const defaultSubHeaderText = 'Welcome to Skeleton Fly.';
 
   subheader.textContent = defaultSubHeaderText;
   animateScale(placeholder, 1.25);

@@ -1,11 +1,10 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html,
-body {
+html, body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
@@ -17,10 +16,10 @@ body {
   font-family: "Neue Montreal";
   text-transform: uppercase;
   background: #e3e3e3;
+  
 }
 
-nav,
-footer {
+nav, footer {
   position: absolute;
   padding: 2em;
   width: 100%;
@@ -32,8 +31,7 @@ footer {
   bottom: 0;
 }
 
-nav > div,
-footer > div {
+nav > div, footer > div {
   padding: 2em;
   cursor: pointer;
 }
@@ -57,4 +55,4 @@ p {
   font-size: 80px;
   color: #000;
   line-height: 2.25;
-}
+} */
