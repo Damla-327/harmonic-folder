@@ -1,112 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-  <meta charset="UTF-8">
-  <title>My Web Page Title</title>
-  <link rel="stylesheet"  href="./main.css">
-  <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
-  <style>
-    body {
-      background-color: rgb(255, 255, 255);
-    }
-  </style>
-
-<style>
-html, body {
-
-margin: 0;
-padding: 0;
-width: 100%;
-height: 100vh;
-background-color: #161616;
-font-family: Neue Montral, sans serif
-overflow: hidden
-
-}
-
-.wrapper {
-
-width: 100;
-height: 100vh;
-font-display: flex;
-justify-content: center;
-align-items:center
-}
-
-.card-container {
-
-position: relative;
-background: #fff;
-color: #000
-width: 540px;
-height: 340px;
-transition: all 0.2s ease-0ut;
-overflow:hidden;
-}
-
-.plus-icon {
-
-position: absolute;
-top: 0;
-right: 0;
-padding:30px;
-font-size: 20px;
-color: grey;
-}
-
-
-.card-icon {
-
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-font-size: 50px;
-
-}
-
-
-.preview-text {
-
-position: absolute;
-bottom: 0 ;
-left: 0;
-padding: 30px;
-font-size: 20px;
-color: gray;
-}
-
-.card-circle{
-
-position: absolute;
-top: 50px;
-left: 50px;
-transform: translate(-50%, -50%);
-width: 260px;
-height:260px;
-border-radius: 100%;
-background: #fff;
-transition: 0.3s;
-
-}
-
-
-</style>
-
-</head>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="script.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>skeleton f. animation</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
   <body>
-    <div class="wrapper">
-      <div class="card-container">
-        <div class="plus-icons"> <ion-icon name="add-sharp"></icon-icon></div>
-        <div class="card-icon"> <ion-icon name="bulb-sharp"></icon-icon></div>
-          <div class="preview-text"> Aquisition</div>
-           <div class="card-circle"></div>
-           <div class="text-wrapper">  Aquisition &mdash; Aquisition &mdash; Aquisition &mdash; Aquisition &mdash; Aquisition &mdash; Aquisition &mdash; Aquisition &mdash; Aquisition &mdash;</div>
-</div>
-</div>
+    <div class="container">
+      <nav>
+        <div id="item-1">ideas</div>
+        <div id="item-2">about</div>
+      </nav>
+      <footer>
+        <div id="item-3">save</div>
+        <div id="item-4">contact</div>
+      </footer>
 
-
-
-
-</body>
+      <div class="header">
+        <div class="placeholder">Skeleton FLY</div>
+        <p id="subheader">One subscription. Endless web design.</p>
+      </div>
+    </div>
+  </body>
 </html>
