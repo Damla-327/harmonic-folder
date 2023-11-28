@@ -1,0 +1,9 @@
+.wrapper img {
+    position: absolute;
+    object-position: 2ch;
+    opacity: 0.8;
+}
+
+.wrapper img:nth-child(1) {
+    z-index: -1;
+}
