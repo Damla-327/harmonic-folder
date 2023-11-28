@@ -1,9 +1,27 @@
+.wrapper {
+    width: 15000px;
+    height: 15000px;
+    /* background-image: url(/assets/images/ommagga3\ png.png); */
+    /* background-color: rgb(139, 217, 217)161, 217, 217); */
+    background-size: contain;
+}
+
+
 .wrapper img {
     position: absolute;
-    object-position: 2ch;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 .wrapper img:nth-child(1) {
     z-index: -1;
+    width: 700px;
+    left: 6000px;
+    top: 4000px;
+}
+
+.wrapper img:nth-child(2) {
+    z-index: -1;
+    width: 1000px;
+    left: 200px;
+    top: 4000px;
 }
