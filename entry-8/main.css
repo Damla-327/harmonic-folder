@@ -1,8 +1,8 @@
-.wrapper {
-    width: 15000px;
-    height: 15000px;
-    /* background-image: url(/assets/images/ommagga3\ png.png); */
-    /* background-color: rgb(139, 217, 217)161, 217, 217); */
+/* .wrapper {
+    width: 10000px;
+    height: 10000px;
+    background-image: url(/assets/images/ommagga3\ png.png);
+    background-color: rgb(139, 217, 217)161, 217, 217);
     background-size: contain;
 }
 
@@ -24,4 +24,130 @@
     width: 1000px;
     left: 200px;
     top: 4000px;
+} */
+
+
+
+
+
+
+
+
+
+/* .wrapper {
+    width: 15000px;
+    height: 15000px;
+    background-image: url(/assets/images/ommagga3\ png.png); 
+    background-color: rgb(139, 217, 217)161, 217, 217); 
+    background-size: contain;
+}
+
+.wrapper img {
+    position: absolute;
+    opacity: 0.8;
+    transition: transform 0.5s ease;
+
+}
+
+.wrapper img:nth-child(1) {
+    z-index: 1;
+    width: 700px;
+    left: 6000px;
+    top: 4000px;
+}
+
+.wrapper img:nth-child(2) {
+    border: 0, 75ch;
+    border-color: black;
+    z-index: 1;
+    width: 1000px;
+    left: 200px;
+    top: 4000px;
+}
+
+
+.wrapper img:nth-child(3) {
+    z-index: 1;
+    width: 1000px;
+    left: 900px;
+    top: 7000px;
+}
+
+.zoom-in {
+    transform: scale(1.2);
+
+}
+
+.zoom-out {
+    transform: scale(0.8);
+  
+} */
+
+
+
+
+
+
+
+
+.wrapper {
+    width: 15000px;
+    height: 15000px;
+    /* background-image: url(/assets/images/ommagga3.jpg); */
+    /* background-color: rgb(139, 217, 217)161, 217, 217); */
+    background-size: contain;
+}
+
+.wrapper img {
+    position: absolute;
+    opacity: 0.8;
+    transition: transform 0.5s ease;
+}
+
+.wrapper img:nth-child(1) {
+    z-index: 1;
+    width: 400px;
+    left: 1600px;
+    top: 4000px;
+}
+
+.wrapper img:nth-child(2) {
+    border: 0.75ch;
+    border-color: black;
+    z-index: 1;
+    width: 700px;
+    left: 200px;
+    top: 4000px;
+}
+
+.wrapper img:nth-child(3) {
+    z-index: 1;
+    width: 800px;
+    left: 500px;
+    top: 2000px;
+}
+
+.wrapper img:nth-child(4) {
+    z-index: 1;
+    width: 500px;
+    left: 700px;
+    top: 4000px;
+}
+
+.wrapper img:nth-child(5) {
+    z-index: 1;
+    width: 400px;
+    left: 200px;
+    top: 2000px;
+}
+
+
+
+.zoom-in {
+    transform: scale(1.2);
+}
+
+.zoom-out {
+    transform: scale(0.8);
+    /* You can adjust the scale factor for zooming out */
 }
