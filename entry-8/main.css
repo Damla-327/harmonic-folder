@@ -85,17 +85,25 @@
 
 
 
+body {
+    cursor: url(/assets/images/frogs.png), auto;
 
+}
 
-
+audio {
+    width: 300px;
+    height: 54px;
+}
 
 
 .wrapper {
-    width: 8000px;
-    height: 5600px;
+    width: 7000px;
+    height: 4600px;
     /* background-image: url(/assets/images/ommagga3.jpg); */
     /* background-color: rgb(139, 217, 217)161, 217, 217); */
     background-size: contain;
+    transform: scale(0.3);
+
 }
 
 .wrapper img {
@@ -107,6 +115,11 @@
 
 /* 
 .background-color: brown; */
+
+.wrapper:hover {
+    color: rgb(179, 40, 40);
+    cursor: url(/assets/images/frogs.png), auto;
+}
 
 
 
@@ -126,6 +139,7 @@
     width: 40;
     left: 3400px;
     top: 1100px;
+    /* position: sticky !important; */
 
 }
 
@@ -137,6 +151,7 @@
     left: 3900px;
     top: 1100px;
     border: dashed;
+    /* position: sticky !important; */
 }
 
 /* yuvarlak */
@@ -184,8 +199,10 @@
 .wrapper img:nth-child(9) {
     z-index: -1;
     width: 1350px;
-    left: 4000px;
-    top: 950px;
+    left: 711px;
+    top: -500px;
+    position: sticky !important;
+
 }
 
 /* bg6  */
@@ -269,13 +286,7 @@
     top: 1200px;
 }
 
-/* yazi */
-.wrapper img:nth-child(20) {
-    z-index: 1;
-    width: 60000px;
-    left: 4000px;
-    top: 3000px;
-}
+
 
 
 
