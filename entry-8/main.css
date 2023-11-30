@@ -91,8 +91,8 @@
 
 
 .wrapper {
-    width: 15000px;
-    height: 15000px;
+    width: 8000px;
+    height: 5600px;
     /* background-image: url(/assets/images/ommagga3.jpg); */
     /* background-color: rgb(139, 217, 217)161, 217, 217); */
     background-size: contain;
@@ -104,41 +104,177 @@
     transition: transform 0.5s ease;
 }
 
+
+/* 
+.background-color: brown; */
+
+
+
+/* magaz yildiz */
 .wrapper img:nth-child(1) {
-    z-index: 1;
-    width: 400px;
-    left: 1600px;
-    top: 4000px;
+    z-index: 2;
+    width: 200px;
+    left: 4500px;
+    top: 3800px;
+
 }
 
+/* pixelli goz */
 .wrapper img:nth-child(2) {
-    border: 0.75ch;
-    border-color: black;
+    border: 1 ch;
     z-index: 1;
-    width: 700px;
-    left: 200px;
-    top: 4000px;
+    width: 40;
+    left: 3400px;
+    top: 1100px;
+
 }
 
+
+/* (tirtikli goz) */
 .wrapper img:nth-child(3) {
     z-index: 1;
-    width: 800px;
-    left: 500px;
-    top: 2000px;
+    width: 580px;
+    left: 3900px;
+    top: 1100px;
+    border: dashed;
 }
 
+/* yuvarlak */
 .wrapper img:nth-child(4) {
-    z-index: 1;
-    width: 500px;
-    left: 700px;
-    top: 4000px;
+    z-index: -2;
+    width: 1450px;
+    left: 3500px;
+    top: 2150px;
 }
 
+/* bg1 */
 .wrapper img:nth-child(5) {
     z-index: 1;
-    width: 400px;
-    left: 200px;
+    width: 750px;
+    left: 3050px;
     top: 2000px;
+}
+
+/* bg3 */
+.wrapper img:nth-child(6) {
+    z-index: 1;
+    width: 650px;
+    left: 3860px;
+    top: 2950px;
+}
+
+/* bg4 */
+.wrapper img:nth-child(7) {
+    z-index: 1;
+    width: 700px;
+    left: 3260px;
+    top: 3300px;
+}
+
+
+/* ommaga bg */
+.wrapper img:nth-child(8) {
+    z-index: -1;
+    width: 2350px;
+    left: 4000px;
+    top: 900px;
+}
+
+/* bg5 soyut */
+.wrapper img:nth-child(9) {
+    z-index: -1;
+    width: 1350px;
+    left: 4000px;
+    top: 950px;
+}
+
+/* bg6  */
+.wrapper img:nth-child(10) {
+    z-index: 1;
+    width: 1650px;
+    left: 3900px;
+    top: 900px;
+}
+
+/* omaga 2 kucuk*/
+.wrapper img:nth-child(11) {
+    z-index: 1;
+    width: 660px;
+    left: 6500px;
+    top: 1000px;
+}
+
+/* bg7 atka plan siyah odun */
+.wrapper img:nth-child(12) {
+    z-index: 1;
+    width: 2800px;
+    left: 8300px;
+    top: 1000px;
+}
+
+
+/* omaga 3 kucuk*/
+.wrapper img:nth-child(13) {
+    z-index: 1;
+    width: 660px;
+    left: 6500px;
+    top: 2000px;
+}
+
+/* omaga 5 kucuk*/
+.wrapper img:nth-child(14) {
+    z-index: 1;
+    width: 660px;
+    left: 6500px;
+    top: 3000px;
+}
+
+/* bg5 soyut2 */
+.wrapper img:nth-child(15) {
+    z-index: 1;
+    width: 1750px;
+    left: 8600px;
+    top: 1000px;
+}
+
+/* bg8  top1 */
+.wrapper img:nth-child(16) {
+    z-index: 1;
+    width: 300px;
+    left: 7190px;
+    top: 3600px;
+}
+
+/* bg8  top2 */
+.wrapper img:nth-child(17) {
+    z-index: 1;
+    width: 300px;
+    left: 7180px;
+    top: 2600px;
+}
+
+/* bg8  top3 */
+.wrapper img:nth-child(18) {
+    z-index: 1;
+    width: 300px;
+    left: 7180px;
+    top: 1600px;
+}
+
+/* bg8 soyut top4 gozun yani */
+.wrapper img:nth-child(19) {
+    z-index: 1;
+    width: 200px;
+    left: 3200px;
+    top: 1200px;
+}
+
+/* yazi */
+.wrapper img:nth-child(20) {
+    z-index: 1;
+    width: 60000px;
+    left: 4000px;
+    top: 3000px;
 }
 
 
