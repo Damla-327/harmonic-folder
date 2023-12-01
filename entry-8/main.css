@@ -86,7 +86,7 @@
 
 
 body {
-    cursor: url(../assets/images/frogs.png), auto;
+    cursor: url(/assets/images/frogs.png), auto;
 
 }
 
@@ -116,10 +116,10 @@ audio {
 /* 
 .background-color: brown; */
 
-.wrapper:hover {
+/* .wrapper:hover {
     color: rgb(179, 40, 40);
     cursor: url(/assets/images/frogs.png), auto;
-}
+} */
 
 
 
